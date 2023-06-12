@@ -1,38 +1,60 @@
 {
-  "name": "minting-website",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "minting-website",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@chakra-ui/react": "^2.5.3",
+        "@crossmint/client-sdk-react-ui": "^0.2.8-alpha.3",
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@openzeppelin/contracts": "^4.8.1",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@thirdweb-dev/react": "^3.13.0",
+        "@thirdweb-dev/sdk": "^3.10.20",
+        "ethers": "^5.7.2",
+        "framer-motion": "^9.1.7",
+        "keccak256": "^1.0.6",
+        "merkletreejs": "^0.3.9",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4",
+        "web3": "^1.9.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+        "@nomiclabs/hardhat-etherscan": "^3.1.7",
+        "assert": "^2.0.0",
+        "buffer": "^6.0.3",
+        "dotenv": "^16.0.3",
+        "hardhat": "^2.13.0",
+        "prettier": "2.8.8",
+        "stream": "^0.0.2"
+    }
 }
